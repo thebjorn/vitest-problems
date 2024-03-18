@@ -1,0 +1,22 @@
+{
+	"name": "vitest-problems",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest --run"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.1.1",
+		"@sveltejs/kit": "^2.5.4",
+		"@sveltejs/vite-plugin-svelte": "^3.0.2",
+		"@vitest/coverage-c8": "^0.33.0",
+		"@vitest/coverage-v8": "^1.4.0",
+		"svelte": "^5.0.0-next.80",
+		"vite": "^5.1.6",
+		"vitest": "^1.4.0"
+	},
+	"type": "module"
+}
